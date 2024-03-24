@@ -9,8 +9,9 @@ void ascending(int n)
         return;
     }
     // recursive relation
-    cout << n << " ";
     return ascending(n - 1);
+    cout << n << " ";
+
 }
 
 int main()

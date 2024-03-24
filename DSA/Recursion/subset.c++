@@ -31,7 +31,7 @@ int main()
 {
     int arr[3] = {1, 2, 3};
     int index = 0;
-    int ans[3]; 
+    int ans[3];
     int size = sizeof(arr) / sizeof(arr[0]);
     int subsetIndex = 0;
     subset(arr, index, size, ans, subsetIndex);

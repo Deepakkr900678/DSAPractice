@@ -31,7 +31,9 @@ void merge(int arr[], int start, int end)
 
     int index1 = 0;
     int index2 = 0;
+    
     mainArrayIndex = start;
+
     while (index1 < length1 && index2 < length2)
     {
         if (first[index1] < second[index2])

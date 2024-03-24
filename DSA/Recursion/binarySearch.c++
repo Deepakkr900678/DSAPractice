@@ -18,10 +18,12 @@ bool binarySearch(int arr[], int key, int start, int end)
 
     if (arr[mid] < key)
     {
+        //Search in right part
         return binarySearch(arr, key, mid + 1, end);
     }
     else
     {
+        //Search in left part
         return binarySearch(arr, key, start, mid - 1);
     }
 }

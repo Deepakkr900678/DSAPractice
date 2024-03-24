@@ -10,9 +10,10 @@ void decending(int n)
     }
 
     // Recursive relation
+    cout << n << " ";
+
     decending(n - 1);
 
-    cout << n << " ";
 }
 
 int main()
